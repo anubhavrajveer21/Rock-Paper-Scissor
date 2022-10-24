@@ -86,5 +86,7 @@ def RPS():
             elif (com_choose == "scissors"):
                 Say("paper")
                 Say("Draw!")
+         else:
+            Say("Say that again")
                 
 RPS()
